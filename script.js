@@ -19,5 +19,5 @@ function calculateMinCost() {
 		pq.sort(function(a,b) {return a-b;});
 	}
 	
-	document.getElementById('#result').textContent = res;
+	document.getElementById('result').textContent = res;
 }  
