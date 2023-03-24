@@ -1,5 +1,5 @@
 function calculateMinCost() {
-  const ropeLstr = getElementById('rope-lengths').value;
+  const ropeLstr = document.getElementById('rope-lengths').value;
 	const ropeLarr = ropeLstr.split(',').map(Number);
 	 const n = ropeLarr.length;
 
