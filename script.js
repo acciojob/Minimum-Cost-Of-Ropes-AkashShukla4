@@ -1,7 +1,7 @@
 function calculateMinCost() {
-  const ropeLstr = document.getElementById('rope-lengths').value;
-	const ropeLarr = ropeLstr.split(',').map(Number);
-	 const n = ropeLarr.length;
+  var ropeLstr = document.getElementById('rope-lengths').value;
+	var ropeLarr = ropeLstr.split(',').map(Number);
+	 var n = ropeLarr.length;
 
 	let pq = [];
 	for (let index = 0; index < n; index++) {
