@@ -12,7 +12,7 @@ function calculateMinCost() {
 	while (ropeLarr.length > 1) {
 		var newRope = ropeLarr[0] + ropeLarr[1];
 		cost += newRope;
-	ropeLarr.splice[(0,2);
+	ropeLarr.splice(0,2);
 	ropeLarr.push(newRope);
 	}
 	ropeLarr.sort(function (a,b) { return a-b; }); 
